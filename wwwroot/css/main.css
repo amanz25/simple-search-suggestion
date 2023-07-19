@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    overflow: hidden;
+    border: solid #ccc 1px;
+    flex: 1 1 200px;
+    border-radius: 8px;
+    justify-content:center;
+    margin-top: 100px;
+}
+
+.search{
+border: 0;
+flex:1;
+padding: 10px;
+}
+
+.searchbtn{
+    padding: 1em;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+}

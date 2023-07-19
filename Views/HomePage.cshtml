@@ -1,0 +1,18 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+
+
+<div class="mt-4 p-5 bg-primary text-white rounded">
+  <h1>Hello, There!</h1>
+  <p>This is a search engine. Search what you want.</p>
+</div>
+<div class="container">
+  <img />
+  <input type="search" class="search" />
+  <input type="submit" class="searchbtn" value="Search" />
+</div>
