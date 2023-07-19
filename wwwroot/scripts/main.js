@@ -19,11 +19,7 @@ $(function () {
                             alert(response.responseText);
                         }
                     });
-            },
-            select: function (e, i) {
-                $("#hiddenSearch").val(i.item.val);
-            },
-            minLength: 1
+            }
 
         })
 
